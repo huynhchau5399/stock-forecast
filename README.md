@@ -90,3 +90,14 @@ Có 2 file notebook:
 	- Để chạy chọn `Kernel` - `Restart & Run All`. 
 
 Cần chạy 2 file notebook tuần tự theo thứ tự liệt kê như trên.
+# 9. Kết quả (độ lỗi):
+ARIMA
+- APPLE: 26.5%
+- AMAZON: 35.5%
+- IBM: 8%
+LSTM - daily
+- APPLE: 7.1731%
+- AMAZON: 6.9874%
+- IBM: 2.4762%
+LSTM - INTRADAY 30M
+- AMAZON 1.25% (Có thể xuống dưới 1% khi chạy 10 epoches)
